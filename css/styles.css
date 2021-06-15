@@ -23,11 +23,13 @@ img {
 */
 table {
   border-spacing: 1em 1em;
-  padding: 1%;
+  padding: 3%;
   border: 3px dashed #5E454B;
   background-color: #fcdec0;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+
+
 }
 
 td {
@@ -39,16 +41,8 @@ td {
 
 /************** CLASS SELECTORS **************/
 
-.plate1 {
+.plate {
     background-color: #D8B384;
-}
-
-.plate2  {
-  background-color: #D8B384;
-}
-
-.plate3  {
-  background-color: #D8B384;
 }
 
 /************** ID SELECTORS **************/
