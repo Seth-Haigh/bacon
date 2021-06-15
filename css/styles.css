@@ -1,4 +1,8 @@
 /************** TAG SELECTORS **************/
+body {
+    background-color: #CEE5D0;
+}
+
 h1 {
   color: red;
   font-size: 100px;
@@ -8,7 +12,7 @@ h1 {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #f5a962;
+  border-color: #5E454B;
   border-width: 25px;
   width: 75%;
 }
@@ -19,35 +23,40 @@ img {
 */
 table {
   border-spacing: 1em 1em;
-  padding: 0 1em 1em 0;
-  border: 5px dotted #b4846c;
+  padding: 1%;
+  border: 3px dashed #5E454B;
   background-color: #fcdec0;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 td {
-  width: 1.5em;
-  height: 1.5em;
-  background: #f5a962;
+  background: #D8B384;
   text-align: center;
   vertical-align: middle;
+  border: 5px dotted #5E454B;
 }
 
 /************** CLASS SELECTORS **************/
 
 .plate1 {
-    background-color: green;
+    background-color: #D8B384;
 }
 
 .plate2  {
-  background-color: blue;
+  background-color: #D8B384;
 }
 
 .plate3  {
-  background-color: green;
+  background-color: #D8B384;
 }
 
 /************** ID SELECTORS **************/
 
-#heading  {
-  color: blue;
+#top-heading  {
+  color: #D35D6E;
+}
+
+#bottom-heading  {
+  color: #5AA469;
 }
