@@ -16,11 +16,12 @@ hr {
   border-width: 25px;
   width: 75%;
 }
-/*
-img {
-  background-color: red;
+
+img:hover {
+  background-color: #EBA83A;
+  padding: 30px;
 }
-*/
+
 table {
   border-spacing: 1em 1em;
   padding: 3%;
@@ -42,9 +43,22 @@ td {
 /************** CLASS SELECTORS **************/
 
 .plate {
-    background-color: #D8B384;
+  border-radius: 75%;
+  background-color: #B4846C;
+  padding: 10px;
+  border: 2px dashed #5E454B;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
+.circular {
+  border-radius: 35%;
+  background-color: #3A6351;
+  padding: 10px;
+  border: 2px dashed #5E454B;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 /************** ID SELECTORS **************/
 
 #top-heading  {
